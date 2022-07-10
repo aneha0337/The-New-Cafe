@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The New Cafe</title>
   <link rel="stylesheet" type="text/css" href=styles.css>
-
 </head>
 
 <body>
@@ -121,4 +120,22 @@
       loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
+  <div class="seat">
+    <h1>Register</h1>
+    <fieldset>
+    <form name="registerForm" onsubmit="handleSubmit()">
+      <label for="fname">Your Name:</label><br>
+      <input type="text" id="fname" name="fname" value="" ><br>
+      <label for="people">No. of people:</label><br>
+      <input type="number" id="people" name="people" value="" ><br>
+      <label for="date">Select Date:</label><br>
+      <input type="date" id="date" name="date" value="" ><br>
+      <label for="msg">Social Message:</label><br>
+      <textarea id="msg" name="msg" value="" ></textarea><br>
+      <input type="submit" value="Submit">
+      </form>
+    </fieldset>
+  </div>
+  <script src="myscript.js"></script>
 </body>
+</html>

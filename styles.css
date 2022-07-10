@@ -117,7 +117,36 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
 #Location{
   text-align: center;
   font-size: 20px;
+}
+.seat{
+  text-align: center;
+  font-size: 20px;
+}
+input[type=text] ,input[type=number] ,input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+fieldset{
+  width: 50%;
+  border: 7px outset grey;
+  margin: auto;
+  text-align: left;
 }
